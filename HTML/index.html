@@ -4,16 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shopping List</title>
+    <script src="shoppingCart.js"></script>
 </head>
 <body>
-        <label for="addItems"> Shopping Cart: </label>
-        <input type="text" id = "addItems" name="addItems">
-        <button id = "add item"> Add Item</button>
-        <ul id = "cart">
-            <li> Coffe </li>
-            <li> Tea </li>
-            <li> Milk </li>
-        </ul>
-        <script"shoppingCart.js"></script>    
+        
+        <label for="items"> Item : </label>
+        <input type="text" id = "add-item" name="add-item" placeholder="type items here">
+        <button type ="button" id = "add"> Add Item</button> 
+        <button type ="button" id ="remove"> Remove Item </button>
+        <button type ="reset" id ="edit"> Edit Item </button>
+    
+        <h3 id = "cart" >Shopping Cart</h3>
+            <ul>
+                <li>
+                </li>
+            </ul>
+    <script src="script.js"></script>
+
+
 </body>
 </html>
